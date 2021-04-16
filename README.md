@@ -3,7 +3,7 @@
 ## Instalation
 
 ```bash
-$ git clone https://github.com/emalherbi/dotfiles.git && cd dotfiles
+$ git clone https://github.com/emalherbi/dotfiles-linux.git && cd dotfiles
 ```
 
 ## How to run
@@ -45,25 +45,25 @@ export JAVA_HOME='/usr/lib/jvm/java-8-openjdk-amd64'
 
 ## Aliases
 
-[Linux](https://github.com/emalherbi/dotfiles/blob/master/system/.bash_aliases)
+[Linux](https://github.com/emalherbi/dotfiles-linux/blob/master/system/.bash_aliases)
 
-[Git](https://github.com/emalherbi/dotfiles/blob/master/git/.gitconfig)
+[Git](https://github.com/emalherbi/dotfiles-linux/blob/master/git/.gitconfig)
 
 ## Utils
 
-[.bash_profile](https://github.com/emalherbi/dotfiles/blob/master/system/.bash_profile) ✔
+[.bash_profile](https://github.com/emalherbi/dotfiles-linux/blob/master/system/.bash_profile) ✔
 
-[.bash_aliases](https://github.com/emalherbi/dotfiles/blob/master/system/.bash_aliases) ✔
+[.bash_aliases](https://github.com/emalherbi/dotfiles-linux/blob/master/system/.bash_aliases) ✔
 
-[.inputrc](https://github.com/emalherbi/dotfiles/blob/master/system/.inputrc) ✔
+[.inputrc](https://github.com/emalherbi/dotfiles-linux/blob/master/system/.inputrc) ✔
 
-[.gitconfig](https://github.com/emalherbi/dotfiles/blob/master/git/.gitconfig) ✔
+[.gitconfig](https://github.com/emalherbi/dotfiles-linux/blob/master/git/.gitconfig) ✔
 
-[.gitignore](https://github.com/emalherbi/dotfiles/blob/master/git/.gitignore) ✔
+[.gitignore](https://github.com/emalherbi/dotfiles-linux/blob/master/git/.gitignore) ✔
 
 [.git-completion](https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash) ✔
 
-[.editorconfig](https://github.com/emalherbi/dotfiles/blob/master/atom/.editorconfig) ✔
+[.editorconfig](https://github.com/emalherbi/dotfiles-linux/blob/master/atom/.editorconfig) ✔
 
 ## Gems e etc
 
