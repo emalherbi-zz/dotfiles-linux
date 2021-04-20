@@ -27,12 +27,11 @@ alias wheater='curl "http://wttr.in/Pato_Branco"'
 
 # projects
 alias sites='cd $HOME/Sites/'
-alias www='cd $HOME/Sites/docker/www/html'
+alias www='cd $HOME/Sites/www'
 alias dotfiles='cd $HOME/Sites/dotfiles'
 
 # docker
-alias dcwww='cd $HOME/Sites/docker'
-alias dcwww7='cd $HOME/Sites/docker7'
+alias dcwww='cd $HOME/Sites/dockers'
 alias dcimg='sudo docker images'
 alias dcps='sudo docker ps'
 alias dcpsaq='sudo docker ps -a -q'
