@@ -28,4 +28,9 @@ sudo cp $pwd/linux/email-send-pc-start.sh ~/email-send-pc-start.sh
 sudo chmod -R 777 ~/email-send-pc-start.sh
 print_checked "~/email-send-pc-start.sh"
 
+# Gitlab-runner
+sudo cp $pwd/linux/gitlab-runner.sh ~/gitlab-runner.sh
+sudo chmod -R 777 ~/gitlab-runner.sh
+print_checked "~/gitlab-runner.sh"
+
 print "Finished: Linux Others"

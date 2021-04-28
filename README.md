@@ -11,6 +11,7 @@ $ git clone https://github.com/emalherbi/dotfiles-linux.git && cd dotfiles
 ### Linux
 
 ```bash
+$ chmod +x install
 $ bash install
 ```
 
@@ -18,7 +19,9 @@ $ bash install
 
 ### Linux
 
-After installation, you can configure the receiving of emails when you connect to the computer.
+#### E-mail
+
+After installation, configurate to receiving emails when your PC start.
 
 1. Edit file "linux/email-send-pc-start.sh", and change the email.
 
@@ -32,6 +35,17 @@ echo "Hello. Your computer $PC - $OS was connected at $DT." | mail -s "[$PC - $O
 crontab -e
 @reboot ~/email-send-pc-start.sh
 ```
+
+#### Gitlab-runner
+
+1. Run the command below:
+
+```bash
+crontab -e
+@reboot ~/gitlab-runner.sh
+```
+
+#### Android HOME & Java HOME
 
 Configure "ANDROID_HOME" and "JAVA_HOME" if necessary.
 
@@ -63,7 +77,7 @@ export JAVA_HOME='/usr/lib/jvm/java-8-openjdk-amd64'
 
 [.git-completion](https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash) ✔
 
-[.editorconfig](https://github.com/emalherbi/dotfiles-linux/blob/master/atom/.editorconfig) ✔
+[.editorconfig](https://github.com/emalherbi/dotfiles-linux/blob/master/.editorconfig) ✔
 
 ## Gems e etc
 
@@ -74,16 +88,16 @@ export JAVA_HOME='/usr/lib/jvm/java-8-openjdk-amd64'
 |  => meld ✔
 |  => rar ✔
 => homebrew ✔
-|  => cask ✔
 |  => node ✔
 |  => svn ✔
 |  => ant ✔
 |  => vim ✔
-|  => macvim ✔
 |  => wifi-password ✔
-|  => findutils ✔
+|  => 7zip ✔
+|  => yarn ✔
 => ruby ✔
 |  => gem ✔
+|  => cocoapods ✔
 |  => jekyll ✔
 => node ✔
 |  => grunt ✔
@@ -93,22 +107,10 @@ export JAVA_HOME='/usr/lib/jvm/java-8-openjdk-amd64'
 |  => ionic ✔
 |  => vtop ✔
 |  => nativefier ✔
+|  => npm-check ✔
+|  => speed-test ✔
 |  => generator-play-ideia ✔
 |  => generator-locawebstyle ✔
-=> atom ✔
-|  => atom-updater-linux ✔
-|  => atom-beautify ✔
-|  => docblockr ✔
-|  => editorconfig ✔
-|  => emmet ✔
-|  => highlight-selected ✔
-|  => linter-htmlhint ✔
-|  => linter-jshint ✔
-|  => minimap ✔
-|  => minimap-highlight-selected ✔
-|  => open-recent ✔
-|  => todo-show ✔
-|  => tree-ignore ✔
 ```
 
 ## License
